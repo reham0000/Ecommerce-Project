@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Project</title>
+    <meta name="description" content="this is an ecommerce project for making Reham express">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Playfair+Display:ital@1&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <!-- navbar starts here -->
+
+    <nav>
+        
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" 
+                class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" 
+                class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" 
+                class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" 
+                class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" 
+                class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" 
+                class="nav-link">
+                <img class="profile-icon" src="images/profile.jpg" alt="profile icon">
+            </a>
+            </li>
+            
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-brand nav-link">Reham Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    cart 2 products - $125.50
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <main>
+        <section class="login">
+            <h2 class="section-title text-center">User Login</h2>
+            <div class="card">
+                <form action="" class="form">
+                    
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" name="" id="email" required autocomplete="email">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="password">Password</label>
+                        <input type="password" name="" id="password" required autocomplete="password">
+                    </div>
+
+                    <div class="form-control flex-center from-btn-field">
+                        <button class="btn contact-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer starts here -->
+
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe ">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Reham Express. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- footer ends here -->
+
+
+</body>
+</html>

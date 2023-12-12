@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Project</title>
+    <meta name="description" content="this is an ecommerce project for making Reham express">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Montserrat&family=Playfair+Display:ital@1&family=Satisfy&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <!-- navbar starts here -->
+
+    <nav>
+        
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list">
+                <a href="index.html" 
+                class="nav-link">Home</a>
+            </li>
+            <li class="nav-list">
+                <a href="register.html" 
+                class="nav-link">Register</a>
+            </li>
+            <li class="nav-list">
+                <a href="login.html" 
+                class="nav-link">Login</a>
+            </li>
+            <li class="nav-list">
+                <a href="index.html" 
+                class="nav-link">Logout</a>
+            </li>
+            <li class="nav-list">
+                <a href="contact.html" 
+                class="nav-link">Contact</a>
+            </li>
+            <li class="nav-list">
+                <a href="profile.html" 
+                class="nav-link">
+                <img class="profile-icon" src="images/profile.jpg" alt="profile icon">
+            </a>
+            </li>
+            
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list">
+                <a href="/index.html" class="nav-brand nav-link">Reham Express</a>
+            </li>
+            <li class="nav-list">
+                <a href="/cart.html" class="nav-link">
+                    <span><i class="fa-solid fa-cart-shopping"></i></span>
+                    cart 2 products - $125.50
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <!-- navbar ends here -->
+
+    <main>
+        <sectiom class="contact-section">
+            <h2 class="section-title text-center">
+                Contact Us
+            </h2>
+            <div class="contact-container flex-center">
+                <form action="" class="form card">
+                    <div class="form-control flex-center">
+                        <label for="name">Name</label>
+                        <input type="text" name="" id="name" required autocomplete="name">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="email">Email</label>
+                        <input type="email" name="" id="email" required autocomplete="email">
+                    </div>
+
+                    <div class="form-control flex-center">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div class="form-control flex-center from-btn-field">
+                        <button class="btn contact-btn" type="submit">Submit</button>
+                    </div>
+                </form>
+
+                <div class="contact-address flex-space-around">
+                    <address>
+                        <h4>Address:</h4>
+                        <p>Mohammadpur, Dhaka,</p>
+                        <p>Bangladesh</p>
+                        <br>
+
+                        <span>Call:</span>
+                        <a href="tel:+8801904617354">+8801904617354</a>
+                    </address>
+                    <iframe class="contact-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14602.446562447974!2d90.40391914013416!3d23.79683994174526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7a7ba38543b%3A0x91d5f14ad296d72e!2sGulshan%202%2C%20Dhaka%201212!5e0!3m2!1sen!2sbd!4v1702387716308!5m2!1sen!2sbd" 
+                     style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </sectiom>
+    </main>
+
+
+    <!-- footer starts here -->
+
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to Newsletter</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe ">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2023 Reham Express. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!-- footer ends here -->
+
+
+</body>
+</html>
